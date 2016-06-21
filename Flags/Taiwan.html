@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taiwan | Flags</title>
+    <style>
+      #taiwan {
+          width: 300px;
+          height: 200px;
+          position: relative;
+          background-color: rgb(205, 35, 42);
+      }
+      
+      #taiwan:before {
+          content: '✹';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 150px;
+          height: 100px;
+          color: rgb(255, 255, 255);
+          font-size: 85px;
+          padding: 5px 41px;
+          box-sizing: border-box;
+          background-color: rgb(22, 55, 113);
+      }
+      
+      #taiwan:after {
+          content: '';
+          position: absolute;
+          top: 30px;
+          left: 55px;
+          width: 33px;
+          height: 33px;
+          background-color: rgb(255, 255, 255);
+          border: 3px solid rgb(22, 55, 113);
+          border-radius: 50%;
+      }
+
+    </style>
+  </head>
+  <body>
+      <div id="taiwan"></div>
+  </body>
+</html>
